@@ -1,0 +1,52 @@
+/* 
+Pertemuan 2
+Overview
+    Struktur Dasar
+    internal & external CSS
+    Selector
+    Property & Value
+        color,display.position,font
+        
+    external/internal css
+    position (fixed,absolute)    
+    Studi Case : BasicApps(login,register,table user) 
+    
+*/
+
+/* 
+    *Struktur CSS
+
+       -Selector -> Tag,Id,Class
+       -property -> color
+       -value -> blue
+
+*/
+body{
+    width: 100%;
+}
+
+.brand{
+    width: 600px;
+    /* background-colorrelative: aqua; */
+    /* margin: auto; */
+    position: fixed;
+}
+
+img{
+
+    /* background-color: blue; */
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+#text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* 
+    CAT :
+    multi property
+    pengelompokkan div
+*/

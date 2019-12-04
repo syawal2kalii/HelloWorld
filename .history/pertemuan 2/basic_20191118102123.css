@@ -1,0 +1,43 @@
+/* 
+Pertemuan 2
+Overview
+    Struktur Dasar
+    internal & external CSS
+    Selector
+    Property & Value
+    Studi Case : BasicApps(login,register,table user) 
+    
+*/
+
+/* 
+    *Struktur CSS
+
+       -Selector -> Tag,Id,Class
+       -property -> color
+       -value -> blue
+
+*/
+body{
+    width: 100%;
+}
+
+.brand{
+    width: 600px;
+    background-color: aqua;
+    margin: auto;
+}
+
+img{
+
+    background-color: blue;
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+
+/* 
+    CAT :
+    multi property
+    pengelompokkan div
+*/

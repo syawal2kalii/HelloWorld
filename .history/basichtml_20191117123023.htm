@@ -1,0 +1,128 @@
+
+<!-- 
+Pertemuan 4   
+Overview
+    Struktur Dasar
+    Struktur Tag
+        *Tag,Atribute,Property
+    Berkenalan Dengan Beberapa Tag
+        *header
+        *Paragraph
+        *Text Style (Bold,italic,font)
+        *a
+        *image
+        *list 
+        *Table (colspan & Rowspan)
+        *input
+        *form  
+        *link import
+    Dimensi dari setiap tag (block,inline)    
+    Studi Case : login,register,table user (No Style)
+
+     -->
+     
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic HTML (Pertemuan 5)</title>
+</head>
+<body>
+    <!-- tag atribute value
+        global -> style,class (https://www.w3.org/TR/2010/WD-html-markup-20101019/global-attributes.html)
+        local -> src
+    -->
+    
+    <img src="" alt="">
+    <h1>ini Header</h1>
+    <p>ini tag <b><i>Paragraph</i></b></p>
+    <p>ini link website <a href="http://www.lscumi.info.tm">LSC</a> </p> 
+    <img src="" alt="">
+   <p> Peminatan Di LSC (Ordered List) </p>
+    <ol>
+        <li>Pemrograman</li>
+        <li>Jaringan</li>
+        <li>Desain</li>
+        <li>Hardware</li>
+    </ol>
+
+    <p>History Ketua LSC</p> 
+    <ul>
+        <li>Kak Iwan (2013)</li>
+        <li>Kak Saldi (2014)</li>
+        <li>Kak Yahya (2016)</li>
+        <li><a href="https://www.w3schools.com/html/html_lists.asp">Contoh Style</a></li>
+    </ul>
+
+    <table border="1"> <!-- tag pembuka -->
+        <tr> <!-- table row -->
+            <th>No</th> <!-- table Head -->
+            <th>Nim</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>1</td> <!-- table Data -->
+            <td>13020160104</td> <!-- table Data -->
+            <td>Muh Syawal</td> <!-- table Data -->
+            <td>A3</td> <!-- table Data -->
+            <td>Sidrap</td> <!-- table Data -->
+        </tr>
+    </table> <!-- tag penutup -->
+
+    <table border="1">
+     
+        <tr style="color: aqua;">
+            <th rowspan="2">No</th>
+            <th rowspan="2">Nim</th>
+            <th rowspan="2">Nama</th>
+            <th rowspan="2">Kelas</th>
+            <th rowspan="2">Alamat</th>
+            <th colspan="2">Jenis-Kelamin</th>
+            <th></th>
+        </tr>
+       
+        <tr>
+               <th>Pertemuan</td>
+               <th>laki</td>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>13020160104</td>
+            <td>Muh Syawal</td>
+            <td>A3</td>
+            <td>Sidrap</td>
+            <td>ss</td>
+            <td>ss</td>
+        </tr>
+        <br>
+        <tr>
+                <td>ss</td>
+                <td>ss</td>
+                <td>ss</td>
+                <td>ss</td>
+                <td>ss</td>
+                <td>ss</td>
+                <td>ss</td>
+            </tr>
+    </table>
+    
+    <h1>Register</h1>
+    N<input type="text"> 
+
+    <!-- <link rel="stylesheet" href="lscumi.info.tm">Ini link ke website LSC -->
+
+
+</body>
+
+
+</html>
+
+<!-- kemungkinan Error
+    1.tag a tanpa http
+    2.Margin di Css
+-->
